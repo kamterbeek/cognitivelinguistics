@@ -1,5 +1,5 @@
 # Cognitive Linguistics & Ethical Discourse Analysis
-(comparison on discourse of Ashli Babbit and 
+(comparison on discourse of Ashli Babbit and Renee Good)
 
 This project collects and analyzes official public statements referencing
 Ashli Babbitt and Renee Good in order to examine how political authority,

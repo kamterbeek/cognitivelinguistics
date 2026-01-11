@@ -12,7 +12,7 @@ and cognitive linguistics.
 ## Research Questions
 - How do official actors linguistically frame responsibility and agency?
 - What - if any - differences show up in the official statements?
-- How does evaluative language differ across political administrations?
+- How does evaluative language differ across political situations?
 - What metaphors and narrative structures recur in official discourse?
 
 ## Methods

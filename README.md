@@ -7,7 +7,7 @@ agency, victimhood, and responsibility are linguistically constructed in
 state and executive discourse.
 
 The project is designed for academic use in ethics, political theory,
-and cognitive linguistics.
+and cognitive linguistics. 
 
 ## Research Questions
 - How do official actors linguistically frame responsibility and agency?

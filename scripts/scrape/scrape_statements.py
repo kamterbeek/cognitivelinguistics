@@ -30,4 +30,7 @@ def get_article_links(page_url):
 
 # NOTE: HTML structure differ per site - selectors need to be adjusted
 links = []
-for a in 
+for a in soup.find_all("a"):
+    href = a.get("href", "")
+    if href.startswith("/"):
+        

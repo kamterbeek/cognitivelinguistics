@@ -63,3 +63,9 @@ if any(k.lower() in test.lower() for k in KEYWORDS):
 return None
 
 def main():
+    records = []
+
+for start in START_URLS:
+    links = get_article_links(start)
+    for link in links:
+        

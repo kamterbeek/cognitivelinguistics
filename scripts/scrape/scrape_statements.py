@@ -33,4 +33,9 @@ links = []
 for a in soup.find_all("a"):
     href = a.get("href", "")
     if href.startswith("/"):
+        href = urljoin(page_url, href)
+    if href and href.startswith("http"):
+        if "statement" in href.lower() or "press-release" in href.lower():
+            links.append(href)
+return list(set(links)) # to dedupe
         

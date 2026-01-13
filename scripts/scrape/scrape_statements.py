@@ -38,4 +38,8 @@ for a in soup.find_all("a"):
         if "statement" in href.lower() or "press-release" in href.lower():
             links.append(href)
 return list(set(links)) # to dedupe
-        
+
+def fetch_and_filter_article(url):
+    """Downloads, parses and filters by keywords."""
+    print(f"Parsing: {url}")
+    

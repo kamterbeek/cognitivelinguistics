@@ -30,4 +30,4 @@ def get_article_links(page_url):
 
 # NOTE: HTML structure differ per site - selectors need to be adjusted
 links = []
-
+for a in 

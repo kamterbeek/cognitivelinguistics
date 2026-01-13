@@ -52,4 +52,14 @@ def fetch_and_filter_article(url):
 
 text = article.text
 
-#
+#check if any key entity is mentioned
+if any(k.lower() in test.lower() for k in KEYWORDS):
+    return {
+        "url": url,
+        "title": article.title,
+        "date": article.publish_date,
+        "text": text
+    }
+return None
+
+def main():

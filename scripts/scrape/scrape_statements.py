@@ -68,4 +68,9 @@ def main():
 for start in START_URLS:
     links = get_article_links(start)
     for link in links:
-        
+        rec = fetch_and_filter_article(link)
+        if rec:
+            records.append(rec)
+        time.sleep(1.0) # courteous pause
+
+

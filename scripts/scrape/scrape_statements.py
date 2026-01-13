@@ -46,4 +46,10 @@ def fetch_and_filter_article(url):
         article = Article(url)
         article.download()
         article.parse()
-    except Exception as e: 
+    except Exception as e:
+        print("failed:", e)
+        return None
+
+text = article.text
+
+#

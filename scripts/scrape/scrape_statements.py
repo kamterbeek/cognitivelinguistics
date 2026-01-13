@@ -42,4 +42,8 @@ return list(set(links)) # to dedupe
 def fetch_and_filter_article(url):
     """Downloads, parses and filters by keywords."""
     print(f"Parsing: {url}")
-    
+    try:
+        article = Article(url)
+        article.download()
+        article.parse()
+    except Exception as e: 

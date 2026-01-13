@@ -28,4 +28,4 @@ def get_article_links(page_url):
     response = requests.get(page_url, headers=HEADERS)
     soup = BeautifulSoup(response.text, "html.parser")
 
-# NOTEL: 
+# NOTE:

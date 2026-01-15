@@ -23,4 +23,4 @@ and cognitive linguistics.
 
 ## Reproducibility
 All scripts are version-controlled and documented.
-Raw data is not redistributed where prohibited.
+Raw data is not redistributed where prohibited. 

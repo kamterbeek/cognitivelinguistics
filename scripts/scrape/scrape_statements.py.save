@@ -1,4 +1,8 @@
-# pip install requests beautifulsoup4 pandas newspaper3k
+import requests
+from bs4 import BeautifulSoup
+import pandas as pd
+from newspaper import Article
+from urllib.parse import urljoin# pip install requests beautifulsoup4 pandas newspaper3k
 
 import requests
 from bs4 import BeautifulSoup

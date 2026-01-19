@@ -1,0 +1,5 @@
+requests
+beautifulsoup4
+pandas
+newspaper3k
+dbt-duckdb

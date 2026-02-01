@@ -5,5 +5,3 @@
 - scripts respect robots.txt and API rules
 - due to ehtical considerations, this data analysis is a sample but not the full picture of online rhetoric
 - focus on language analysis, framing, and rhetoric
-
-
